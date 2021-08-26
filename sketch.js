@@ -10,7 +10,7 @@ let bg = 240;
 function setup() {
   cnv = createCanvas(350, 430);
 
-  sl1 = createSlider(2, N, N, 1);
+  sl1 = createSlider(2, N, 100, 1);
   sl1.position(1, cnv.position().y+ height);
   
   //print(sl1.position());
